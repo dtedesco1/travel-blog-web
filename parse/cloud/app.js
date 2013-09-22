@@ -14,9 +14,6 @@ app.get('/hello', function(req, res) {
   res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 app.get('/map', function(req, res) {
-  //Get last 72 hours of locations
-  //var pingRate = 30; //30 minutes
-  //var pingsPer24Hours = 216 / (pingRate/60);
   var Location = Parse.Object.extend("Location");
   var query = new Parse.Query(Location);
   //query.limit(pingsPer24Hours);
