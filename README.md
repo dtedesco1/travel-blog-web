@@ -40,3 +40,9 @@ This project is deployed using parse command line tools, this will probably be e
 
 But you can also [click here for installation instructions](https://www.parse.com/docs/cloud_code_guide#started-installing)
 
+
+###Deploying###
+Inside of the parse directory (important!), run
+````bash
+    parse deploy
+````
